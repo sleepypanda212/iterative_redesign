@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color:rgba(255, 255, 255, 0.905);"></body>
+
+<head>
+  <title>CS1300 Iterative Redesign</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    h1 {
+      color: rgb(17, 0, 255);
+    }
+    p {
+      margin-bottom: 0;
+      font-style: bold;
+      font-size: 30px;
+      color: rgb(12, 0, 175);
+    }
+    p2 {
+      margin-bottom: 0;
+      font-style: italic;
+      font-size: 22px;
+      color: rgb(12, 0, 175);
+
+    }
+    body {
+      color: rgb(0, 0, 0);
+      font-size: 25px;
+      font-style: italic;
+      padding: 0;
+      margin-top: 0;
+    }
+    div {
+      font-size: 20px;
+      font-style: normal;
+      text-align: left;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    a {
+      font-size: 20px;
+    }
+    a:hover {
+      font-size: 20px;
+      color: rgb(213, 0, 0);
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td{
+      padding: 10px;
+      width: 33%;
+    }
+    th {
+      font-size: 20px;
+      background-color: rgb(187, 187, 187);
+    }
+    td{
+      font-size: 20px;
+      text-align: left;
+      vertical-align: top;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="cs1300-gallery">
+    <h1>Iterative Redesign</h1>
+    <p>Project Overview</p>
+    <div>
+      Approximately 305 million start-ups are created annually. In this project we aim to mock up a solution to a start-ups concept. In hopes of achieving this goal, we have created a mobile interactive interface to solve the start-up’s of our choosing, Rever, concepts.
+    </div>
+
+    <p>Pre-Design Thinking</p>
+    <div>
+      This is a mobile application interface.
+    </div>
+    <p2>Context about the startup</p2>
+    <div>
+      Rever is an up and coming startup with the goal of making returns easier. Rever makes returns easier by consolidating returns into one location and allowing consumers to return their products in 2 clicks. By offering different refund methods, you can get an instant refund if you need it rather than waiting for the long process of the return. 
+    </div>
+    <p2>What type of users are impacted by our interface and why would they be impacted?</p2>
+    <div>
+      Our interface mainly impacts small to medium sized businesses that work in sales, as well as consumers of all ages and socioeconomic statuses, as this service provides an ease of life experience.
+      <br>Users, both customers and businesses, can easily manage refunds with mobile phones. Users can sign in as a customer or business on the login page. Customers can select returnable items they would like to return in one click and have an option for instant refund, full refund, and refund through store credit. Businesses can manage all refunds from all customers in one page and can visualize refunds completed, in-progress, and canceled. The simple interface makes it more accessible, enhancing memorability. 
+    </div>
+
+    <p>Sketches</p>
+    <div class="slider slider-1">
+      <div class="photos">
+        <img src="./assets/lofi1.png" class="shown" alt="lofi1">
+        <img src="./assets/lofi2.png" alt="lofi2">
+        <img src="./assets/lofi3.jpeg" alt="lofi3">
+        <img src="./assets/lofi4.png" alt="lofi4">
+        <div class="buttons">
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+    </div>
+
+    <p>LoFi Wireframe</p>
+    <div class="gallery-item-container">
+      <img class="gallery-item" src="./assets/hifi1.pdf" alt="LoFi Wireframe">
+    </div>
+
+    <p>HiFi Mockup Pre Critique</p>
+    <div class="gallery-item-container">
+      <img class="gallery-item" src="./assets/hifi1.png" alt="HiFi before critique">
+    </div>
+    <a href="https://www.figma.com/proto/uxRJghEpTWKpYVvIOT0OfA/Rough-Draft-Iterative-Design-CS1300?node-id=5%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A2&show-proto-sidebar=1">Click here to see our prototype before the critique</a>
+    <br>
+
+    <p>Critique Summary</p>
+    <table>
+      <tr>
+        <th>Flow 1 (Customer profile)</th>
+        <th>Flow 2 (Business profile)</th>
+        <th>Niko's critiques</th>
+      </tr>
+      <tr>
+        <td>
+          - Homepage has a lack of hierarchy. Confusion of functionality and where to look.
+          <br>- Confusing Menu bar interface (many thought the home button was selected in the profile page and vice versa).
+          <br>- Not enough item information
+          <br>&emsp;&emsp;&emsp;- Is it a group order?
+          <br>&emsp;&emsp;&emsp;- How much time will it take for a full refund?
+        </td>
+        <td>
+          - Color scheme was difficult to identify. Some text was not noticeable or left ambiguous with color selections.
+          <br>&emsp;&emsp;&emsp;- Many could not idenitfy that red order means cancelled, yellow means in review, and green means completed
+          <br>- Lack of logout button to switch between customer and business profiles.
+          <br>- Filtering of the order was not intuitive.
+          <br>&emsp;&emsp;&emsp;- Seems more intuitive that most recent orders are at the top of the list
+        </td>
+        <td>
+          - Unclear which button is selected (profile or home).
+          <br>- Unclear what the refund page is (2nd screen of the HiFi mockup).
+          <br>- Lack of contrast in colors that can lead to accessibility issues. 
+        </td>
+      </tr>
+    </table>
+    <p>HiFi Mockup Post Critique</p>
+    <div class="gallery-item-container">
+      <img class="gallery-item" src="./assets/hifi2.png" alt="HiFi after critique">
+    </div>
+    <a href=https://www.figma.com/proto/95ISqL0tHIR3hFwgfGVhHh/Iterative-Design-CS1300?node-id=391%3A412&scaling=scale-down&page-id=0%3A1&starting-point-node-id=391%3A376&show-proto-sidebar=1>Click here to see our prototype after the critique</a>
+  
+    <p>User Testing Task Instruction</p>
+    <p2>Overall Task</p2>
+    <div>
+      Return the Air Jordan 1s from Nike. Choose any refund option that you'd like.
+    </div>
+    <p2>Subtasks</p2>
+    <div>
+      1. You are a busy and stressed customer with a shopping history and want to make quick returns. On the login screen, sign in as a customer. *in this mockup, you do not need to actually fill in the email and password input spaces.
+      <br>2. You've recently initiated a refund on a MacBook and you want to check on how the refund is going. From the home page, find the purchase/refund information for the MacBook to see if it has been received by the business!
+      <br>3. Return the pair of jeans for an Instant Refund, they don’t fit and you need a new pair ASAP.
+      <br>4. It turns out you’re also a business owner who's hoping to easily keep track of refunds. Sign out of your customer profile and log in again, but this time from the Business option. *again, you do not need to actually fill in the email and password input spaces.
+      <br>5. You want to review only the refunds in progress right now. Luckily, you notice that you can filter your options from the top menu bar. Filter the dashboard so that you only see the refunds that are IN PROGRESS, and click on one of them to see more information on how the refund is going.
+    </div>
+
+    <p>User Testing Videos</p>
+    <div class="vid-item-container">
+      <iframe class="vid-item" src="https://www.youtube.com/embed/ENVjIPleRrs" title="User1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vid-item" src="https://www.youtube.com/embed/-1D-LpYE0eY" title="User2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vid-item" src="https://www.youtube.com/embed/8h4gky6VS0g" title="User3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p>Post-test Questions</p>
+    <div>
+      1. As a customer, was returning the product with the different return options understandable?
+      <br>2. As a customer, would you rather have speed in returning or more precision (such as extra confirmation screens)?
+      <br>3. As a customer, did you locate your item easily? Would you like your items grouped in an order or individual items?
+      <br>4. As a business owner, were all refunds easily manageable (easy to identify the status of the refund)?
+    </div>
+    
+    <p>Result Analysis</p>
+    <p2>Summary of subtasks, types of errors users made, and generally how users did on the tasks</p2>
+    <table>
+      <tr>
+        <th>User 1</th>
+        <th>User 2</th>
+        <th>User 3</th>
+      </tr>
+      <tr>
+        <td>
+          - confused with sign in/sign out, but mainly due to figma navigational glitches
+          <br>- was not familiar with the profile icon
+          <br>- thought a sign out button would be somewhere on the "home" page
+        </td>
+        <td>
+          - initially tried the business profile
+          <br>- did have a bit of confusion on the wording of the MacBook refunding processing
+        </td>
+        <td>
+          - no issues, easily completed all tasks and understood the wording compared to the previous users
+        </td>
+      </tr>
+    </table>
+    <div>
+      All users were given the same task of returning the Air Jordan with some subtasks listed above. Users reported that refund options were
+      easily understandable and that locating items were easy too. All users agreed that grouping and sorting the items and orders made the 
+      interface more usable and accessible. All users prioritized speed over precision, which is in line with the startup's mission and our
+      prototype's goal (to make refunds quicker and easier). Even the business profile seemed intuitive to the users, too, as they all completed
+      the subtasks successfully and stated that "the color coding for status and ability to filter made it easier." Although there seemed to 
+      be soem confusion about the sign-in page and the meaning of icons, overall the UserTesting went as expected as all users completed the task 
+      without much difficulty. 
+    </div>
+
+    <p>Potential interface changes based on these results/feedback</p>
+    <div>
+      1. More clearly label what purchases have started the 'refund process' (from the MacBook refunding task)
+      <br>2. Explain or emphasize the two different customer and business login options on sign-in page
+
+    </div>
+  </body>
+</html>
