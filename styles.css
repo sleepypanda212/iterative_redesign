@@ -21,7 +21,6 @@
 
 .slider .photos img {
   width: 95%;
-  max-height: 500px;
   position: absolute;
   left: 2.5%;
   opacity: 0;
@@ -35,9 +34,9 @@
 .prev:before,
 .next:before {
 color: rgb(17, 0, 255);
-font-size: 50px;
+font-size: 3rem;
 position: absolute;
-top: 250px;
+top: 15rem;
 cursor: pointer;
 }
 
