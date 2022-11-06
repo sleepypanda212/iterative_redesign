@@ -21,6 +21,7 @@
 
 .slider .photos img {
   width: 95%;
+  max-height: 600rem;
   position: absolute;
   left: 2.5%;
   opacity: 0;
