@@ -5,6 +5,9 @@
   justify-content: center;
   text-align: center;
   gap: 10px;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .slider {
