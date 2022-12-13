@@ -6,8 +6,8 @@
   text-align: center;
   gap: 10px;
   padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .slider {
